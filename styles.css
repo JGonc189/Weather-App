@@ -1,0 +1,73 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+* {
+	
+	font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+	font-size: 4.8em;
+}
+h2 {
+	font-size: 4.0em;
+}
+
+h3 {
+	font-size: 2.8em;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+html,
+body {
+	margin: 0 auto;
+	background-color: #1E8BC3;
+	
+}
+
+
+/* Content Styling */
+
+.content {
+	border: 2px solid #000;
+	border-radius: 15px 50px;
+	background-color: #E4F1FE;
+	width: 65%;
+	padding: 3%;
+	margin: 4% 15% 4% 15%;
+	-webkit-box-shadow: 0 15px 10px -6px #000;
+    -moz-box-shadow: 0 15px 10px -6px #000;
+    box-shadow: 0 15px 10px -6px #000;
+
+}
+
+.weather-information {
+	text-align: center;
+	color: #000;
+}
+
+button {
+	border: 2px solid #000;
+	background-color: #89C4F4;
+	color: #22313F;
+	font-size: 1.8em;
+	padding: 2%;
+}
+
+footer {
+	text-align: center;
+	font-size: .8em;
+	color: #fff;
+}
+
+.social-icons > a {
+	padding: .2em;
+	color: #fff;
+	
+}
+

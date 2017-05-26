@@ -28,7 +28,7 @@ function render(weatherData, celsius){
 	$('#currentTemp').html(currentTemp);
 	$('#currentWeather').html(currentWeather);
 	$('#humidity').html(humidity);
-	$('#high-low').html(highTemp + " / " + lowTemp);
+	$('#high_low').html(highTemp + " / " + lowTemp);
 
 	// prepend img tag onto document
 						
